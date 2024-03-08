@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Numerics;
 using System.Reflection.Metadata.Ecma335;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
@@ -33,7 +34,7 @@ class Program
         return true;
     }
 
-    public static void CheckForMessenePrimes(int n)
+    public static bool CheckForMessenePrimes(int n)
     {
         for (int k = 2; ((1 << k) - 1) <= n; k++)
         {
@@ -42,16 +43,21 @@ class Program
             // Checking whether number is 
             // prime and is one less than
             // the power of 2
-            if (IsPrime(num))
-                Console.Write(num + " ");
+            if (IsPrime(num) && n == num)
+                return true;
         }
+
+        return false;
     }
 
     static void Main(string[] args)
     {
         for (int i = 0; ; i++)
         {
-            
+            if (CheckForMessenePrimes(i))
+            {
+                Console.WriteLine(i);
+            }
         }
         //PrintPrimes();
     }
