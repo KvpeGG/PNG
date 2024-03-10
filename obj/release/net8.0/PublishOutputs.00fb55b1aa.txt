@@ -1,0 +1,5 @@
+F:\GithubShit\PNG\PNG\build\Perfect Numbers.exe
+F:\GithubShit\PNG\PNG\build\Perfect Numbers.dll
+F:\GithubShit\PNG\PNG\build\Perfect Numbers.deps.json
+F:\GithubShit\PNG\PNG\build\Perfect Numbers.runtimeconfig.json
+F:\GithubShit\PNG\PNG\build\Perfect Numbers.pdb

@@ -1,0 +1,15 @@
+F:\GithubShit\PNG\PNG\bin\Debug\net8.0\Perfect Numbers.exe
+F:\GithubShit\PNG\PNG\bin\Debug\net8.0\Perfect Numbers.deps.json
+F:\GithubShit\PNG\PNG\bin\Debug\net8.0\Perfect Numbers.runtimeconfig.json
+F:\GithubShit\PNG\PNG\bin\Debug\net8.0\Perfect Numbers.dll
+F:\GithubShit\PNG\PNG\bin\Debug\net8.0\Perfect Numbers.pdb
+F:\GithubShit\PNG\PNG\obj\Debug\net8.0\Perfect Numbers.GeneratedMSBuildEditorConfig.editorconfig
+F:\GithubShit\PNG\PNG\obj\Debug\net8.0\Perfect Numbers.AssemblyInfoInputs.cache
+F:\GithubShit\PNG\PNG\obj\Debug\net8.0\Perfect Numbers.AssemblyInfo.cs
+F:\GithubShit\PNG\PNG\obj\Debug\net8.0\Perfect Numbers.csproj.CoreCompileInputs.cache
+F:\GithubShit\PNG\PNG\obj\Debug\net8.0\Perfect Numbers.sourcelink.json
+F:\GithubShit\PNG\PNG\obj\Debug\net8.0\Perfect Numbers.dll
+F:\GithubShit\PNG\PNG\obj\Debug\net8.0\refint\Perfect Numbers.dll
+F:\GithubShit\PNG\PNG\obj\Debug\net8.0\Perfect Numbers.pdb
+F:\GithubShit\PNG\PNG\obj\Debug\net8.0\Perfect Numbers.genruntimeconfig.cache
+F:\GithubShit\PNG\PNG\obj\Debug\net8.0\ref\Perfect Numbers.dll

@@ -8,13 +8,13 @@ class Program
 
     public static void PrintPrimes()
     {
-        foreach (int prime in Primes())
+        foreach (long prime in Primes())
             Console.WriteLine(prime);
     }
 
-    public static IEnumerable<int> Primes()
+    public static IEnumerable<long> Primes()
     {
-        for (int i = 2; ; i++)                     
+        for (long i = 2; ; i++)                     
             if (IsPrime(i)) yield return i;
     }
 
@@ -25,20 +25,20 @@ class Program
         if (n == 2047) return false;
         if (n % 2 == 0) return false;
 
-        int boundary = (int)Math.Floor(Math.Sqrt(n));
+        int boundary = (int)(long)Math.Floor(Math.Sqrt(n));
 
-        for (int i = 3; i <= boundary; i += 2)
+        for (long i = 3; i <= boundary; i += 2)
             if (n % i == 0)
                 return false;
 
         return true;
     }
 
-    public static bool CheckForMessenePrimes(int n)
+    public static bool CheckForMersennePrimes(long n)
     {
-        for (int k = 2; ((1 << k) - 1) <= n; k++)
+        for (long k = 2; ((1 << (int)k) - 1) <= n; k++)
         {
-            long num = (1 << k) - 1;
+            long num = (1 << (int)k) - 1;
 
             // Checking whether number is 
             // prime and is one less than
@@ -52,13 +52,15 @@ class Program
 
     static void Main(string[] args)
     {
-        for (int i = 0; ; i++)
+
+        int counter = 1;
+        foreach (long prime in Primes())
         {
-            if (CheckForMessenePrimes(i))
+            if (CheckForMersennePrimes(prime))
             {
-                Console.WriteLine(i);
+                Console.WriteLine(counter + "st Mersenne Prime: " + prime);
+                counter++;
             }
         }
-        //PrintPrimes();
     }
 }
