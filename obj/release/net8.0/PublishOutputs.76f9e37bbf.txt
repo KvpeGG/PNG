@@ -1,0 +1,5 @@
+C:\Users\sala23\Downloads\PNG-main\PNG-main\out\Perfect Numbers.exe
+C:\Users\sala23\Downloads\PNG-main\PNG-main\out\Perfect Numbers.dll
+C:\Users\sala23\Downloads\PNG-main\PNG-main\out\Perfect Numbers.deps.json
+C:\Users\sala23\Downloads\PNG-main\PNG-main\out\Perfect Numbers.runtimeconfig.json
+C:\Users\sala23\Downloads\PNG-main\PNG-main\out\Perfect Numbers.pdb

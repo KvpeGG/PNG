@@ -13,3 +13,17 @@ F:\GithubShit\PNG\PNG\obj\release\net8.0\refint\Perfect Numbers.dll
 F:\GithubShit\PNG\PNG\obj\release\net8.0\Perfect Numbers.pdb
 F:\GithubShit\PNG\PNG\obj\release\net8.0\Perfect Numbers.genruntimeconfig.cache
 F:\GithubShit\PNG\PNG\obj\release\net8.0\ref\Perfect Numbers.dll
+C:\Users\sala23\Downloads\PNG-main\PNG-main\bin\Release\net8.0\Perfect Numbers.exe
+C:\Users\sala23\Downloads\PNG-main\PNG-main\bin\Release\net8.0\Perfect Numbers.deps.json
+C:\Users\sala23\Downloads\PNG-main\PNG-main\bin\Release\net8.0\Perfect Numbers.runtimeconfig.json
+C:\Users\sala23\Downloads\PNG-main\PNG-main\bin\Release\net8.0\Perfect Numbers.dll
+C:\Users\sala23\Downloads\PNG-main\PNG-main\bin\Release\net8.0\Perfect Numbers.pdb
+C:\Users\sala23\Downloads\PNG-main\PNG-main\obj\Release\net8.0\Perfect Numbers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sala23\Downloads\PNG-main\PNG-main\obj\Release\net8.0\Perfect Numbers.AssemblyInfoInputs.cache
+C:\Users\sala23\Downloads\PNG-main\PNG-main\obj\Release\net8.0\Perfect Numbers.AssemblyInfo.cs
+C:\Users\sala23\Downloads\PNG-main\PNG-main\obj\Release\net8.0\Perfect Numbers.csproj.CoreCompileInputs.cache
+C:\Users\sala23\Downloads\PNG-main\PNG-main\obj\Release\net8.0\Perfect Numbers.dll
+C:\Users\sala23\Downloads\PNG-main\PNG-main\obj\Release\net8.0\refint\Perfect Numbers.dll
+C:\Users\sala23\Downloads\PNG-main\PNG-main\obj\Release\net8.0\Perfect Numbers.pdb
+C:\Users\sala23\Downloads\PNG-main\PNG-main\obj\Release\net8.0\Perfect Numbers.genruntimeconfig.cache
+C:\Users\sala23\Downloads\PNG-main\PNG-main\obj\Release\net8.0\ref\Perfect Numbers.dll

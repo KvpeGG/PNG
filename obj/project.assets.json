@@ -8,23 +8,23 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Kacper\\.nuget\\packages\\": {},
-    "E:\\vs\\NarzedziaIZestawySDK\\NuGetPackages": {}
+    "C:\\Users\\sala23\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\GithubShit\\PNG\\PNG\\Perfect Numbers.csproj",
+      "projectUniqueName": "C:\\Users\\sala23\\Downloads\\PNG-main\\PNG-main\\Perfect Numbers.csproj",
       "projectName": "Perfect Numbers",
-      "projectPath": "F:\\GithubShit\\PNG\\PNG\\Perfect Numbers.csproj",
-      "packagesPath": "C:\\Users\\Kacper\\.nuget\\packages\\",
-      "outputPath": "F:\\GithubShit\\PNG\\PNG\\obj\\",
+      "projectPath": "C:\\Users\\sala23\\Downloads\\PNG-main\\PNG-main\\Perfect Numbers.csproj",
+      "packagesPath": "C:\\Users\\sala23\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\sala23\\Downloads\\PNG-main\\PNG-main\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "E:\\vs\\NarzedziaIZestawySDK\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Kacper\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\sala23\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -66,7 +66,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-rc.2.23502.2/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

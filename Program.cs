@@ -1,4 +1,5 @@
-﻿using System;
+﻿/*
+using System;
 using System.Numerics;
 using System.Reflection.Metadata.Ecma335;
 using static System.Runtime.InteropServices.JavaScript.JSType;
@@ -25,7 +26,7 @@ class Program
         if (n == 2047) return false;
         if (n % 2 == 0) return false;
 
-        int boundary = (int)(long)Math.Floor(Math.Sqrt(n));
+        long boundary = (long)Math.Floor(Math.Sqrt(n));
 
         for (long i = 3; i <= boundary; i += 2)
             if (n % i == 0)
@@ -36,7 +37,7 @@ class Program
 
     public static bool CheckForMersennePrimes(long n)
     {
-        for (long k = 2; ((1 << (int)k) - 1) <= n; k++)
+        for (uint k = 2; ((1 << (int)k) - 1) <= n; k++)
         {
             long num = (1 << (int)k) - 1;
 
@@ -50,17 +51,42 @@ class Program
         return false;
     }
 
-    static void Main(string[] args)
-    {
 
-        int counter = 1;
-        foreach (long prime in Primes())
+
+
+    public static bool CheckForPerfectNumbers(long n)
+    {
+        long sum = 1;
+
+        // nasty af hack. TODO: fix this mf
+        if (n == 1)
+            return false;
+
+        for (long i = 2; i < Math.Floor(n / 2d + 1d); i++)
         {
-            if (CheckForMersennePrimes(prime))
+            if (n % i == 0 && i != n)
             {
-                Console.WriteLine(counter + "st Mersenne Prime: " + prime);
-                counter++;
+                sum += i;
             }
         }
+
+        return sum == n;
+    }
+
+    static void Main(string[] args)
+    {   
+        uint counter = 1;
+        while (true)
+        {
+            if (CheckForPerfectNumbers(counter))
+            {
+                Console.WriteLine($"Perfect number found {counter}");
+            }
+
+            counter++;
+        }
+
+
     }
 }
+*/
